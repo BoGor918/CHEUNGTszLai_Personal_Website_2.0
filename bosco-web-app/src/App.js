@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/header';
+import TopSection from './components/topSection';
 
 function App() {
   return (
     <div className="App">
-      <span className='text-4xl'>Hai</span>
+      <Header />
+      <TopSection />
     </div>
   );
 }
